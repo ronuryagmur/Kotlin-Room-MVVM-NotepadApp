@@ -45,7 +45,7 @@ class AddNoteActivity : AppCompatActivity() {
 
     }
 
-    fun saveNote(){
+    private fun saveNote(){
         val title = editText_title.text.toString()
         val desc = editText_desc.text.toString()
 
